@@ -1,10 +1,10 @@
-🤖 EduBot — AI Education Chatbot
+## 🤖 EduBot — AI Education Chatbot
 
 EduBot is a local AI-powered education chatbot built with **Python** and **Ollama**. It uses the **Qwen2.5:0.5B** language model to provide educational assistance and answer users' questions.
 
 The chatbot runs locally through Ollama, so you can interact with the AI without depending on a cloud-based API.
 
-✨ Features
+## ✨ Features
 
 * 🤖 AI-powered educational chatbot
 * 🧠 Powered by **Qwen2.5:0.5B**
@@ -34,29 +34,16 @@ Before running the project, make sure you have:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/fatimaasher84/chatbot.git
+
 ```
 
-### 2. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-### 3. Install dependencies
-
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Install Ollama
+### 3. Install Ollama
 
 Download and install Ollama from the official website.
 
@@ -66,16 +53,16 @@ After installation, verify it:
 ollama --version
 ```
 
-### 5. Download the Qwen model
+### 4. Download the Qwen model
 
 ```bash
 ollama pull qwen2.5:0.5b
 ```
 
-### 6. Start Ollama
+### 5. Start Ollama
 
 ```bash
-ollama serve
+ollama run qwen2.5:0.5B
 ```
 
 Ollama will normally run on:
@@ -127,30 +114,11 @@ chatbot/
 │
 ├── main.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
-```
+└── README.md
+ ```
 
 > Your actual project structure may be different depending on how you organize the application.
 
 ## 🔐 Privacy
 
 Because the model runs locally through Ollama, your conversations can remain on your own computer rather than being sent to a third-party cloud AI service.
-
-## 🔮 Future Improvements
-
-* [ ] Add a web interface
-* [ ] Add conversation history
-* [ ] Add user authentication
-* [ ] Add streaming responses
-* [ ] Add voice input/output
-* [ ] Add educational subject selection
-* [ ] Add RAG for study materials and PDFs
-* [ ] Improve chatbot guardrails
-* [ ] Deploy the application
-
-## 👨‍💻 Author
-
-**Your Name**
-
-If you found this project useful, consider giving the repository a ⭐ on GitHub!
