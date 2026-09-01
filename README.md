@@ -17,14 +17,22 @@ The chatbot runs locally through Ollama, so you can interact with the AI without
 
 
 🛠️ Technologies Used
+
 Python
+
 Ollama
+
 Qwen2.5:0.5B
+
 OpenAI-compatible API
+
 Before running the project, make sure you have:
 Python 3.10+
+
 Ollama installed
+
 Qwen2.5:0.5B model downloaded
+
 
 
 
